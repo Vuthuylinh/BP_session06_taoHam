@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>taoHam</title>
+</head>
+<body>
+<script>
+    let confirmAnswer = confirm("Do you want to play this game?")
+    function processConfirm(answer){
+        let result = "";
+        if (answer){
+            result = "Great! Let's start playing!"
+        }else{
+            result = "Maybe later then."
+        }
+    return result;
+
+    }
+    let theAnswer = processConfirm(confirmAnswer)
+    alert(theAnswer);
+
+</script>
+</body>
+</html>
